@@ -47,16 +47,14 @@ public class Main extends JFrame {
 	public static final float aSharp0 = (float) 29.14;
 	public static final float b0 = (float) 30.87;
 	
-	public static final float[] notes = {c0, cSharp0, d0, dSharp0, e0, f0, 
-											fSharp0, g0, gSharp0, a0, aSharp0, b0};
+	public static final float[] notes = {c0, cSharp0, d0, dSharp0, e0, f0, fSharp0, g0, gSharp0, a0, aSharp0, b0};
 	
 	public static final int[] keys = {KeyEvent.VK_Q, KeyEvent.VK_W, KeyEvent.VK_E, 
-									  KeyEvent.VK_R, KeyEvent.VK_T, KeyEvent.VK_Y,
-									  KeyEvent.VK_A, KeyEvent.VK_S, KeyEvent.VK_D,
-									  KeyEvent.VK_F, KeyEvent.VK_G, KeyEvent.VK_H};
+						KeyEvent.VK_R, KeyEvent.VK_T, KeyEvent.VK_Y,
+						KeyEvent.VK_A, KeyEvent.VK_S, KeyEvent.VK_D,
+						KeyEvent.VK_F, KeyEvent.VK_G, KeyEvent.VK_H};
 	
 	public static SineOscillator osc;
-//	public static WhiteNoise noise;
 	public static LineOut out1;
 	public static LineOut out2;
 	
